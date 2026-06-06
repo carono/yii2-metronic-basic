@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 /** @var \yii\web\View $this */
 
-use carono\metronic\widgets\Card;
+use app\widgets\metronic\Card;
 
 $this->title = 'About';
 ?>

@@ -8,14 +8,14 @@ declare(strict_types=1);
  * @var array $detail
  */
 
-use carono\metronic\helpers\Btn;
-use carono\metronic\helpers\Media;
-use carono\metronic\widgets\Badge;
-use carono\metronic\widgets\Card;
-use carono\metronic\widgets\DetailView;
-use carono\metronic\widgets\GridView;
-use carono\metronic\widgets\ItemList;
-use carono\metronic\widgets\ListView;
+use app\helpers\metronic\Btn;
+use app\helpers\metronic\Media;
+use app\widgets\metronic\Badge;
+use app\widgets\metronic\Card;
+use app\widgets\metronic\DetailView;
+use app\widgets\metronic\GridView;
+use app\widgets\metronic\ItemList;
+use app\widgets\metronic\ListView;
 use yii\helpers\Html;
 
 $this->title = 'Grid + Detail';

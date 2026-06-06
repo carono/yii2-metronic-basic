@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 /** @var \yii\web\View $this */
 
-use carono\metronic\helpers\Btn;
-use carono\metronic\widgets\Badge;
-use carono\metronic\widgets\Card;
+use app\helpers\metronic\Btn;
+use app\widgets\metronic\Badge;
+use app\widgets\metronic\Card;
 use yii\helpers\Url;
 
 $this->title = 'Dashboard';

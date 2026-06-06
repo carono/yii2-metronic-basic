@@ -18,7 +18,7 @@ use yii\web\Response;
 
 class SiteController extends Controller
 {
-    public $layout = '@vendor/carono/yii2-metronic/src/views/layouts/demo3';
+    public $layout = 'demo3';
 
     public function __construct(
         $id,
@@ -168,7 +168,7 @@ class SiteController extends Controller
      */
     public function actionTopnav(): string
     {
-        $this->layout = '@vendor/carono/yii2-metronic/src/views/layouts/demo9';
+        $this->layout = 'demo9';
         return $this->render('topnav');
     }
 

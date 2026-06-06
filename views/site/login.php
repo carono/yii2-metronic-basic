@@ -5,9 +5,9 @@ declare(strict_types=1);
 /** @var \yii\web\View $this */
 /** @var \app\models\LoginForm $model */
 
-use carono\metronic\helpers\Btn;
-use carono\metronic\widgets\ActiveForm;
-use carono\metronic\widgets\Card;
+use app\helpers\metronic\Btn;
+use app\widgets\metronic\ActiveForm;
+use app\widgets\metronic\Card;
 
 $this->title = 'Login';
 ?>

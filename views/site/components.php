@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 /** @var \yii\web\View $this */
 
-use carono\metronic\helpers\Btn;
-use carono\metronic\helpers\Media;
-use carono\metronic\widgets\Alert;
-use carono\metronic\widgets\Avatar;
-use carono\metronic\widgets\Badge;
-use carono\metronic\widgets\Card;
-use carono\metronic\widgets\Drawer;
-use carono\metronic\widgets\Modal;
-use carono\metronic\widgets\Tabs;
+use app\helpers\metronic\Btn;
+use app\helpers\metronic\Media;
+use app\widgets\metronic\Alert;
+use app\widgets\metronic\Avatar;
+use app\widgets\metronic\Badge;
+use app\widgets\metronic\Card;
+use app\widgets\metronic\Drawer;
+use app\widgets\metronic\Modal;
+use app\widgets\metronic\Tabs;
 
 $this->title = 'Components';
 ?>
